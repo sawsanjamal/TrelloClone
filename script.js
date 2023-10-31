@@ -1,3 +1,7 @@
 import setupDragAndDrop from "./dragAndDrop.js";
 
-setupDragAndDrop();
+setupDragAndDrop(onDragComplete);
+
+function onDragComplete(e) {
+  console.log(e);
+}
